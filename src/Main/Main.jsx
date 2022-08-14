@@ -30,6 +30,7 @@ function Main() {
           </div>
         </div>
 
+        {/* Right side of main */}
         <div className="right-main">
           <div className="hello-text">Hello</div>
           <div className="description">
@@ -38,9 +39,15 @@ function Main() {
             and add value to it any way I can.
           </div>
           <div className="circle-links">
-            <span>Resume</span>
-            <span>Projects</span>
-            <span>Contact</span>
+            <div className="circle-icons resume">
+              <h4>Resume</h4>
+            </div>
+            <div className="circle-icons projects">
+              <h4>Projects</h4>
+            </div>
+            <div className="circle-icons contact">
+              <h3>Contact</h3>
+            </div>
           </div>
         </div>
       </div>

@@ -23,5 +23,59 @@ body {
 
 .savon-img {
     border-radius: 50%;
-    width: 25%;
+    width: 100%;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+
+.left-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 2rem;
+    gap: .25rem;
+}
+
+.right-main {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 75%;
+}
+
+.hello-text {
+    font-size: 4.5rem;
+}
+
+.circle-links {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.circle-icons {
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.resume {
+    background-color: orange;
+}
+
+.projects {
+    background-color: red;
+}
+
+.contact {
+    background-color: green;
 }
