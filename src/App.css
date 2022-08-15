@@ -123,17 +123,10 @@ a:hover {
 }
 
 /* Resume component */
-.resume-container {
-    height: 100vh;
-}
-
-.title {
-    text-align: center;
-}
-
-.experience-title {
+.resume-header {
     font-size: 1.5rem;
-    margin-left: 4rem;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .rt-side-experience {
@@ -167,4 +160,14 @@ ul {
 
 li {
     margin-bottom: .25rem;
+}
+
+/* Education section */
+.education-container {
+    display: flex;
+    gap: 5rem;
+    justify-content: flex-start;
+    margin: auto;
+    padding-bottom: 2rem;
+    width: 80%;
 }

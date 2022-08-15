@@ -59,15 +59,21 @@ function Main() {
             and add value to it any way I can.
           </div>
           <div className="circle-links">
-            <div className="circle-icons resume">
-              <h4>Resume</h4>
-            </div>
-            <div className="circle-icons projects">
-              <h4>Projects</h4>
-            </div>
-            <div className="circle-icons contact">
-              <h3>Contact</h3>
-            </div>
+            <a href="/resume">
+              <div className="circle-icons resume">
+                <h4>Resume</h4>
+              </div>
+            </a>
+            <a href="/projects">
+              <div className="circle-icons projects">
+                <h4>Projects</h4>
+              </div>
+            </a>
+            <a href="/contact">
+              <div className="circle-icons contact">
+                <h3>Contact</h3>
+              </div>
+            </a>
           </div>
         </div>
       </div>
