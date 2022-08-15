@@ -1,17 +1,33 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "../App.css";
 
 function NavBar() {
   return (
     <>
       <div className="navbar-container">
-        <div className="left-nav">Savon Huynh</div>
+        <div className="left-nav">SH</div>
+        {/* Right side of navbar */}
         <div className="right-nav">
-          <div>Resume</div>
+          <a href="/">
+            <div>Home</div>
+          </a>
+
           <div className="vertical-line"></div>
-          <div>Projects</div>
+          <a href="/resume">
+            <div>Resume</div>
+          </a>
+
           <div className="vertical-line"></div>
-          <div>Contact</div>
+          <a href="/projects">
+            <div>Projects</div>
+          </a>
+
+          <div className="vertical-line"></div>
+          <a href="/contact">
+            <div>Contact</div>
+          </a>
         </div>
       </div>
     </>

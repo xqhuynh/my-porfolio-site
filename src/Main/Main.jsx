@@ -15,18 +15,38 @@ function Main() {
           <div>
             <img className="savon-img" src={Savon} alt={Savon} />
           </div>
+          <div className="name-title">Savon Huynh</div>
           <div className="job-title">Software Engineer</div>
-          <div className="follow-me">Follow Me</div>
           <div className="social-icons">
-            <Icon>
-              <FacebookIcon />
-            </Icon>
-            <Icon>
-              <InstagramIcon />
-            </Icon>
-            <Icon>
-              <LinkedInIcon />
-            </Icon>
+            <a
+              href="https://www.facebook.com/savon.huynh"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon>
+                <FacebookIcon />
+              </Icon>
+            </a>
+
+            <a
+              href="https://www.instagram.com/savonhuynh/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon>
+                <InstagramIcon />
+              </Icon>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/savon-huynh"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon>
+                <LinkedInIcon />
+              </Icon>
+            </a>
           </div>
         </div>
 

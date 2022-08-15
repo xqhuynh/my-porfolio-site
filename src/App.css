@@ -2,13 +2,27 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(242, 240, 238);
+    background-color: rgb(220, 216, 213);
+    /* height: 100vh; */
 }
 
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Nav component */
 .navbar-container {
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
+
+.left-nav {
+    font-size: 1.25rem;
 }
 
 .right-nav {
@@ -17,8 +31,7 @@ body {
 }
 
 .vertical-line {
-    border: 1px solid black;
-    background-color: black;
+    border: .25px solid rgb(168, 166, 166);
 }
 
 .savon-img {
@@ -26,11 +39,23 @@ body {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+/* Main component */
 .main-container {
     display: flex;
     align-items: center;
-    width: 75%;
-    margin: auto;
+    width: 60%;
+    margin: 5rem auto 0 auto;
+    padding-bottom: 10rem;
+    height: 100vh;
 }
 
 .left-main {
@@ -39,6 +64,10 @@ body {
     text-align: center;
     margin-right: 2rem;
     gap: .25rem;
+}
+
+.name-title {
+    font-size: 1.5rem;
 }
 
 .right-main {
@@ -60,8 +89,8 @@ body {
 }
 
 .circle-icons {
-    border: 1px solid black;
-    width: auto;
+    border: 1px solid rgb(159, 152, 152);
+    width: 4rem;
     height: auto;
     border-radius: 50%;
     text-align: center;
@@ -78,4 +107,22 @@ body {
 
 .contact {
     background-color: green;
+}
+
+/* Footer component */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem 1rem 2rem;
+    align-items: center;
+}
+
+.footer-line {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/* Resume component */
+.resume-container {
+    height: 100vh;
 }
