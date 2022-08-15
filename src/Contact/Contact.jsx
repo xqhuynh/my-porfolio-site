@@ -53,7 +53,7 @@ function Contact() {
         </div>
 
         <div>
-          <button>Submit</button>
+          <button className="submit-btn">Submit</button>
         </div>
       </div>
     </>

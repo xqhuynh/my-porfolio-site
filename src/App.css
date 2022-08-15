@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(220, 216, 213);
-    /* height: 100vh; */
+    background-color: rgb(233, 233, 233);
+    /* font-family: 'Noto Sans', sans-serif; */
 }
 
 .App {
@@ -64,6 +64,7 @@ a:hover {
     text-align: center;
     margin-right: 2rem;
     gap: .25rem;
+    width: 40%;
 }
 
 .name-title {
@@ -74,7 +75,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: .5rem;
-    width: 75%;
+    width: 60%;
 }
 
 .hello-text {
@@ -85,28 +86,64 @@ a:hover {
     display: flex;
     margin-top: 1rem;
     gap: 1rem;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+
 }
 
 .circle-icons {
     border: 1px solid rgb(159, 152, 152);
     width: 4rem;
-    height: auto;
     border-radius: 50%;
     text-align: center;
     padding: 1.5rem;
 }
 
+@keyframes resume-link {
+    0% {
+        transform: translateY(100%)
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes projects-link {
+    0% {
+        transform: translateY(100%)
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes contact-link {
+    0% {
+        transform: translateY(100%)
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .resume {
     background-color: orange;
+    animation: resume-link 300ms;
+}
+
+.resume:hover, .projects:hover, .contact:hover {
+    background-color: white;
 }
 
 .projects {
     background-color: red;
+    animation: projects-link 600ms;
 }
 
 .contact {
     background-color: green;
+    animation: contact-link 900ms;
 }
 
 /* Footer component */
@@ -154,6 +191,7 @@ a:hover {
 
 p {
     margin: 0;
+    /* font-size: .9rem; */
 }
 
 ul {
@@ -162,6 +200,7 @@ ul {
 
 li {
     margin-bottom: .25rem;
+    /* font-size: .8rem; */
 }
 
 /* Education section */
@@ -192,26 +231,49 @@ li {
 
 /* Projects  */
 .projects-container {
-    height: 100vh;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     gap: 5rem;
     margin: 2rem auto 1rem auto ;
+    /* border: 1px solid blue; */
+    width: 80%;
 }
 
 .project-desc {
     /* border: 1px solid black; */
     height: 16rem;
-    width: 20rem;
+    width: 40%;
+}
+
+.project-card {
+    /* border: 1px solid red; */
+    width: 60%;
 }
 
 .cake-img {
-    width: 30rem;
+    width: 100%;
 }
 
 .project-title {
     margin-top: 0;
+}
+
+.groupie-gif {
+    width: 50%;
+}
+
+.cake-img:hover {
+    border: 3px solid grey;
+    opacity: .5;
+}
+
+.desc-text {
+    font-size: .95rem;
+    line-height: 1.1rem;
+}
+
+.projects-line {
+    width: 6%;
 }
 
 /* Contact  */
@@ -233,4 +295,23 @@ li {
 .contact-line {
     width: 5%;
     margin-bottom: 3rem;
+}
+
+
+.submit-btn {
+    border: 1px solid grey;
+    width: 6rem;
+    height: 1.75rem;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.submit-btn:hover {
+    background-color: rgb(249, 220, 183);
+}
+
+#outlined-basic {
+    background-color: rgb(241, 241, 241);
 }
