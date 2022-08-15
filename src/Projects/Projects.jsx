@@ -1,4 +1,5 @@
 import React from "react";
+import Surrender from "./surrender.gif";
 import Cake from "./cake.jpg";
 
 function Projects() {
@@ -12,7 +13,11 @@ function Projects() {
           <p>This project is my solor project I created in a 2 week sprint</p>
         </div>
         <div className="project-card">
-          <img className="cake-img" src={Cake} alt={Cake} />
+          <img
+            className="cake-img"
+            src={Surrender}
+            alt="Sweet Surrender Giphy"
+          />
         </div>
       </div>
 
@@ -23,7 +28,7 @@ function Projects() {
           <p>This project is my solor project I created in a 2 week sprint</p>
         </div>
         <div className="project-card">
-          <img className="cake-img" src={Cake} alt={Cake} />
+          <img className="cake-img" src={Surrender} alt="Groupie Giphy" />
         </div>
       </div>
 
@@ -34,7 +39,7 @@ function Projects() {
           <p>This project is my solor project I created in a 2 week sprint</p>
         </div>
         <div className="project-card">
-          <img className="cake-img" src={Cake} alt={Cake} />
+          <img className="cake-img" src={Surrender} alt={Cake} />
         </div>
       </div>
     </>

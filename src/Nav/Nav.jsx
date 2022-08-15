@@ -6,7 +6,10 @@ function NavBar() {
   return (
     <>
       <div className="navbar-container">
-        <div className="left-nav">SH</div>
+        <a href="/">
+          <div className="left-nav">SH</div>
+        </a>
+
         {/* Right side of navbar */}
         <div className="right-nav">
           <a href="/">
