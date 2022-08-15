@@ -20,6 +20,9 @@ function App() {
       break
     case "/contact":
       component = <Contact />
+      break
+    default:
+      component = <Main />
   }
   return (
     <div className="App">
