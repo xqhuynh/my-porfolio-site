@@ -11,9 +11,8 @@ import ExperienceCardEight from "./ExperienceCardEight";
 function Experience() {
   return (
     <>
-      <span>
-        <h3 className="resume-header">Work Experience</h3>
-      </span>
+      <h3 className="resume-header">Work Experience</h3>
+      <hr className="experience-line" />
       <ExperienceCardOne />
       <ExperienceCardTwo />
       <ExperienceCardThree />

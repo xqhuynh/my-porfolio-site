@@ -127,6 +127,12 @@ a:hover {
     font-size: 1.5rem;
     text-align: center;
     margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.experience-line {
+    margin-bottom: 2rem;
+    width: 15%;
 }
 
 .rt-side-experience {
@@ -135,10 +141,6 @@ a:hover {
     justify-content: center;
     width: 80%;
     margin: auto;
-}
-
-.experience-title {
-    text-align: center;
 }
 
 .dates {
@@ -167,7 +169,47 @@ li {
     display: flex;
     gap: 5rem;
     justify-content: flex-start;
-    margin: auto;
-    padding-bottom: 2rem;
+    margin: 2rem auto;
     width: 80%;
+}
+
+.education-line {
+    width: 8%;
+}
+
+/* Skills */
+.skills-container {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+.skills-line {
+    width: 5%;
+}
+
+/* Projects  */
+.projects-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 5rem;
+    margin: 2rem auto 1rem auto ;
+}
+
+.project-desc {
+    /* border: 1px solid black; */
+    height: 16rem;
+    width: 20rem;
+}
+
+.cake-img {
+    width: 25rem;
+}
+
+.project-title {
+    margin-top: 0;
 }

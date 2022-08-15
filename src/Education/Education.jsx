@@ -1,11 +1,11 @@
 import React from "react";
-import "../App.css";
 
 function Education() {
   return (
     <>
       {/* Prime Academy */}
       <h3 className="resume-header">Education</h3>
+      <hr className="education-line" />
       <div className="education-container">
         <div>
           <p className="dates">March 2022 - August 2022</p>
