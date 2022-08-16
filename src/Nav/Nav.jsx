@@ -13,22 +13,22 @@ function NavBar() {
         {/* Right side of navbar */}
         <div className="right-nav">
           <a href="/">
-            <div>Home</div>
+            <div className="nav-link">Home</div>
           </a>
 
           <div className="vertical-line"></div>
           <a href="/resume">
-            <div>Resume</div>
+            <div className="nav-link">Resume</div>
           </a>
 
           <div className="vertical-line"></div>
           <a href="/projects">
-            <div>Projects</div>
+            <div className="nav-link">Projects</div>
           </a>
 
           <div className="vertical-line"></div>
           <a href="/contact">
-            <div>Contact</div>
+            <div className="nav-link">Contact</div>
           </a>
         </div>
       </div>
