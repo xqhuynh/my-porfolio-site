@@ -86,7 +86,7 @@ a:hover {
     display: flex;
     margin-top: 1rem;
     gap: 1rem;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 100%;
     flex-wrap: wrap;
 
@@ -146,6 +146,10 @@ a:hover {
     animation: contact-link 900ms;
 }
 
+.description {
+    padding-right: 7rem;
+}
+
 /* Footer component */
 .footer-container {
     display: flex;
@@ -175,7 +179,7 @@ a:hover {
 .rt-side-experience {
     display: flex;
     gap: 5rem;
-    justify-content: center;
+    /* justify-content: center; */
     width: 80%;
     margin: auto;
 }
