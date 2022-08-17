@@ -19,8 +19,8 @@ function ExperienceCardSeven() {
               damage quotes and assess repairability
             </li>
             <li>
-              Streamlined the repair process thus cutting down rental vehicle
-              costs and increase client satisfaction
+              Streamlined the repair process with auto body shops thus cutting
+              costs while increasing client satisfaction
             </li>
           </ul>
         </div>

@@ -15,12 +15,13 @@ function ExperienceCardThree() {
           <p className="location">Minneapolis, MN</p>
           <ul>
             <li>
-              Prepared for aircraft departure and arrival in a safe and timely
-              manner in a fast-paced environment
+              Prepared, coordindated, and communicated with other departments
+              for aircraft departure and arrival in a safe and timely manner in
+              a fast-paced environment
             </li>
             <li>
-              Coordinated with other departments to ensure prompt arrivals and
-              departure
+              Cross-trained and contributed to the overall success of ramp
+              operations
             </li>
           </ul>
         </div>

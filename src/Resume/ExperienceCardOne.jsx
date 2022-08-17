@@ -10,30 +10,34 @@ function ExperienceCardOne() {
         </div>
         <div className="experience-rt">
           <p>
-            <strong>Prime Digital Academy</strong> / Software Developer Student
+            <strong>Prime Digital Academy</strong> / Software Engineer Student
           </p>
           <p className="location">Minneapolis, MN</p>
-          <p>Solo Project: Sweet Surrender</p>
+          <p>Solo Project: Sweet Surrender eCommerce Store</p>
           <ul>
             <li>
-              Sweet Surrender is an e-commerce store that sells custom cakes
+              Design wireframes using Figma and translate prototype to website
+              design
             </li>
             <li>
-              Technologies used: React, Node.js, Express.js, PostgreSQL,
-              Passport, Material UI, Bootstrap
+              Create eCommerce web application using PERN stack in addition to
+              Material UI, Passport, and Bootstrap within 2-week sprint
             </li>
           </ul>
 
-          <p>Client Project: Groupie</p>
+          <p>Client Project: Groupie Web Application</p>
           <ul>
             <li>
-              Groupie is an app that allows gym goers to search for gym
-              instructors based on identity markers/tags such as LGBTQ, Veteran,
-              Senior Fitness, etc.
+              Engage with client and provide prototype based on client
+              specifications using Figma and present to client for approval
             </li>
             <li>
-              Technologies used: React, Node.js, Redux, Express, Postgres,
-              Passport, Material UI, Amazon AWS, Google Maps & Places
+              Design web application within 2-week sprint utilizing PERN stack
+              along with Amazon AWS, Google Maps and Google Places 3rd party API
+            </li>
+            <li>
+              Present web application to client and other stakeholders after
+              completion
             </li>
           </ul>
         </div>

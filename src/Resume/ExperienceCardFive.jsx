@@ -10,7 +10,7 @@ function ExperienceCardFive() {
         </div>
         <div className="experience-rt">
           <p>
-            <strong>Friendly Chevrolet</strong> / Estimator
+            <strong>Friendly Chevrolet</strong> / Auto Body Estimator
           </p>
           <p className="location">Remote</p>
           <ul>
@@ -19,8 +19,8 @@ function ExperienceCardFive() {
               using estimating software and technology
             </li>
             <li>
-              Coordinated with the sales department on repair plans for lot
-              vehicles
+              Communicated repair expectations: plan, monitor, evaluate, and
+              review job orders
             </li>
           </ul>
         </div>

@@ -10,21 +10,21 @@ function ExperienceCardTwo() {
         </div>
         <div className="experience-rt">
           <p>
-            <strong>Master Collision</strong> / Estimator
+            <strong>Master Collision</strong> / Auto Body Estimator
           </p>
           <p className="location">Minneapolis, MN</p>
           <ul>
             <li>
-              Oversaw auto repairs from beginning to end utilizing various
-              estimating and parts sourcing software
+              Oversaw auto repairs from conception to completion utilizing
+              various estimating and parts sourcing software
             </li>
             <li>
-              Communicated with insurance companies and clients throughout the
-              repair process
+              Developed store strategies to raise client pool, expand store
+              traffic, and optimize profitability
             </li>
             <li>
-              Ensured that body technicians received proper training, materials,
-              and parts
+              Communicated with all stakeholders throughout the repair process
+              and set firm timelines for repair completion
             </li>
           </ul>
         </div>

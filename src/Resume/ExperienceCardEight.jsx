@@ -10,15 +10,22 @@ function ExperienceCardEight() {
         </div>
         <div className="experience-rt">
           <p>
-            <strong>United States Navy</strong> / Aviation Boatswain's Mate
+            <strong>United States Navy</strong> / Console Operator
           </p>
           <p className="location">Norfolk, VA</p>
           <ul>
             <li>
-              Supervised crew members in the safe and efficient transport of 1.3
-              million gallons of jet fuel
+              Supervised and trained crew members in the safe and efficient
+              transport of over 1.3 million gallons of jet fuel
             </li>
-            <li>Trained, processed, and onboard over 1000 incoming sailors</li>
+            <li>
+              Ensure the safe transport of jet fuel during refueling-at-sea and
+              flight operations while maintaining speed and accuracy
+            </li>
+            <li>
+              Trained and onboarded over 500 incoming sailors and scheduled
+              onboarding events and activities
+            </li>
           </ul>
         </div>
       </div>

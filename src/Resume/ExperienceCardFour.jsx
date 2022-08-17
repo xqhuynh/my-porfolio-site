@@ -17,12 +17,10 @@ function ExperienceCardFour() {
           <ul>
             <li>
               Assisted in the development of usable, accessible interfaces for
-              various grants IT projects
+              HHS grants.gov website which allows for a streamlined grants
+              management process
             </li>
-            <li>
-              Utilized full stack tools to develop business functionality in a
-              cloud-based platform
-            </li>
+            <li>Contributed to and maintained HHS grants GitHub repository</li>
           </ul>
         </div>
       </div>

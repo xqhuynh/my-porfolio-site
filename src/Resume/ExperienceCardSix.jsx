@@ -15,15 +15,15 @@ function ExperienceCardSix() {
           <p className="location">Roseville, MN</p>
           <ul>
             <li>
+              Conducted daily meetings with technicians and estimators regarding
+              daily goals and expectations
+            </li>
+            <li>
               Initiated and oversaw auto repairs for clients and insurance
               companies
             </li>
             <li>
-              Facilitated daily morning meetings with technicians and estimators
-              regarding daily goals and expectations
-            </li>
-            <li>
-              Contributed to the revenue growth of the shop in becoming the top
+              Contributed to the revenue growth of the shop to become the top
               two earners in the state
             </li>
           </ul>
