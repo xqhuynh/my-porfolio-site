@@ -5,6 +5,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import Icon from "@mui/material/Icon";
+import Resume from "./savon-resume.pdf";
 
 function Main() {
   return (
@@ -46,6 +47,12 @@ function Main() {
               <Icon>
                 <LinkedInIcon />
               </Icon>
+            </a>
+          </div>
+          {/* Download CV  */}
+          <div>
+            <a download="" href={Resume}>
+              Download CV
             </a>
           </div>
         </div>

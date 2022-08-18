@@ -18,7 +18,7 @@ function Projects() {
       {/* Sweet Surrender Project */}
       <div className="project-container">
         <div className="project-0">
-          <Card sx={{ maxWidth: 400 }}>
+          <Card sx={{ maxWidth: 375 }}>
             <CardMedia
               className="card-img"
               component="img"
@@ -27,10 +27,10 @@ function Projects() {
               alt="green iguana"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography gutterBottom variant="h6" component="div">
                 Sweet Surrender
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography className="project-body" color="text.secondary">
                 An e-commerce cake store created using the PERN stack.
                 Technologies used: React, Node.js, Express.js, Postgres,
                 Material UI, Bootstrap, Redux.
@@ -58,7 +58,7 @@ function Projects() {
 
         {/* Groupie Project */}
         <div>
-          <Card className="project-card" sx={{ maxWidth: 400 }}>
+          <Card className="project-card" sx={{ maxWidth: 375 }}>
             <CardMedia
               className="card-img"
               component="img"
@@ -67,10 +67,10 @@ function Projects() {
               alt="groupie"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography gutterBottom variant="h6" component="div">
                 Groupie
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography className="project-body" color="text.secondary">
                 This app allows gym goers to search for gym instructors based
                 off tags such as LGBTQ, Senior, etc. PERN stack. Also used
                 Amazon AWS, Google Map, Google Places.
@@ -98,7 +98,7 @@ function Projects() {
 
         {/* Calculator Project */}
         <div>
-          <Card className="project-card" sx={{ maxWidth: 400 }}>
+          <Card className="project-card" sx={{ maxWidth: 375 }}>
             <CardMedia
               className="card-img"
               component="img"
@@ -107,10 +107,10 @@ function Projects() {
               alt="green iguana"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography gutterBottom variant="h6" component="div">
                 Server Side Calculator
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography className="project-body" color="text.secondary">
                 This is a simple calculator that takes in two numbers and
                 performs basic arithmetic. Technologies used are jQuery and
                 Ajax.
